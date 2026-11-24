@@ -2,8 +2,8 @@
   "product": "NFLPro GM Statistics Portal",
   "season": 1970,
   "through_week": 6,
-  "source_published_at": "2026-11-23T23:22:38",
-  "prepared_at": "2026-11-24T07:13:00",
-  "source_snapshot_path": "C:\\NFLPro3\\StatisticsManager\\GMPortal\\Published\\1970\\Week06_20261123-232238",
+  "source_published_at": "2026-11-24T09:35:51",
+  "prepared_at": "2026-11-24T09:35:51",
+  "source_snapshot_path": "C:\\NFLPro3\\StatisticsManager\\GMPortal\\Published\\1970\\Week06_20261124-093551",
   "deployment_target": "STATIC_WEB_HOSTING_GITHUB_PAGES_READY"
 }
