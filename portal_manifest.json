@@ -1,9 +1,9 @@
 {
   "product": "NFLPro GM Statistics Portal",
-  "portal_version": "0.2-alpha2",
+  "portal_version": "0.2-alpha3",
   "season": 1970,
   "through_week": 6,
-  "published_at": "2026-11-23T23:22:38",
+  "published_at": "2026-11-24T09:35:51",
   "source_snapshot_label": "WEEK06_POST",
   "publication_boundary": "READ_ONLY_APPROVED_REPORT_ARTIFACTS_ONLY",
   "excluded": [
@@ -86,7 +86,7 @@
       "report_week": null,
       "source_status": "COMPLETE",
       "raw_file": "raw/honours.html",
-      "sha256": "d8c6b22d721f5fc74d90491b7a19abf9cc70f56b78c69c302e068cbc6d4a58ba"
+      "sha256": "675afbb606accd399e7187a27cc07a0b4d945d3d4c32d7430f543e116349687c"
     },
     {
       "id": "weekly_awards",
