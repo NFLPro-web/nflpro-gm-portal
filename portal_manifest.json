@@ -1,0 +1,128 @@
+{
+  "product": "NFLPro GM Statistics Portal",
+  "portal_version": "0.2-alpha2",
+  "season": 1970,
+  "through_week": 6,
+  "published_at": "2026-11-23T23:22:38",
+  "source_snapshot_label": "WEEK06_POST",
+  "publication_boundary": "READ_ONLY_APPROVED_REPORT_ARTIFACTS_ONLY",
+  "excluded": [
+    "ANNUAL working module",
+    "SAWARDS provisional award leaders",
+    "Projected All-Pro / All-Rookie",
+    "Diagnostics",
+    "League processing/import/edit controls",
+    "NSM working database"
+  ],
+  "warnings": [
+    "Play-Log Analytics contains a documented source gap; affected team/player totals remain coverage-qualified and are never imputed."
+  ],
+  "interactive_views": {
+    "player_directory": "players.html",
+    "team_directory": "teams.html",
+    "player_count": 687,
+    "team_count": 18,
+    "source": "committed CURRENT_SEASON_PLAYER_STATS.csv (sanitized into static HTML)"
+  },
+  "reports": [
+    {
+      "id": "stand",
+      "title": "Standings & Schedule",
+      "group": "League Reports",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/stand.html",
+      "sha256": "977d096c716a693701dd9a562e4f67d355192cba6d8e057e0518c9ab19075e97"
+    },
+    {
+      "id": "gamestat",
+      "title": "Game Summaries",
+      "group": "League Reports",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/gamestat.html",
+      "sha256": "b814f0d38c880f0c3e3b917077dcf2cc1762ce71fbb0ce5549713ce46218fee5"
+    },
+    {
+      "id": "teamstat",
+      "title": "Team Statistics",
+      "group": "League Reports",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/teamstat.html",
+      "sha256": "d3ab8d7d2661712fbccaef38f0a5a5c6a96251cfd6aabab28b1bfa0f19757a09"
+    },
+    {
+      "id": "season",
+      "title": "Season Leaders",
+      "group": "League Reports",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/season.html",
+      "sha256": "ce3957cc452845129923b39bc475cb8d008180df8c361d4154ea060d23e8d0e4"
+    },
+    {
+      "id": "career",
+      "title": "Career Leaders",
+      "group": "History & Records",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/career.html",
+      "sha256": "02cd7e3aa1972ec4d00ffbd355ceec971af38f554a0dad3d122466afcdab254c"
+    },
+    {
+      "id": "records",
+      "title": "Record Book",
+      "group": "History & Records",
+      "report_week": null,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/records.html",
+      "sha256": "b8aa84749f99bd3a48563956ea4f8f9e7227124fbc254c9678cc06c84e81ba72"
+    },
+    {
+      "id": "honours",
+      "title": "Honours History",
+      "group": "History & Records",
+      "report_week": null,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/honours.html",
+      "sha256": "d8c6b22d721f5fc74d90491b7a19abf9cc70f56b78c69c302e068cbc6d4a58ba"
+    },
+    {
+      "id": "weekly_awards",
+      "title": "Weekly Awards",
+      "group": "Weekly Recognition",
+      "report_week": 6,
+      "source_status": "COMPLETE",
+      "raw_file": "raw/weekly_awards.html",
+      "sha256": "ffdbeb6c5cfbb9c9aa6580efd5247187dbd714e1f56db81c9e1b9c75899be384"
+    },
+    {
+      "id": "playlog_pd",
+      "title": "Passes Defended",
+      "group": "NSM Analytics",
+      "report_week": 6,
+      "source_status": "PARTIAL",
+      "raw_file": "raw/playlog_pd.html",
+      "sha256": "5a6ffeefe51105886737117b1501a804979798b6bc4e13b7f0e697220956d3a9"
+    },
+    {
+      "id": "playlog_penalties",
+      "title": "Penalties",
+      "group": "NSM Analytics",
+      "report_week": 6,
+      "source_status": "PARTIAL",
+      "raw_file": "raw/playlog_penalties.html",
+      "sha256": "868bbe7ae14e2e9759c75226f0fbec1455b55aa38a4a28a26433305e72154def"
+    },
+    {
+      "id": "playlog_coverage",
+      "title": "Play-Log Coverage",
+      "group": "NSM Analytics",
+      "report_week": 6,
+      "source_status": "PARTIAL",
+      "raw_file": "raw/playlog_coverage.html",
+      "sha256": "5a4306a04e38e684f4e0a7d96b7f770a540dc7edd8fd85137cfdb0484513185f"
+    }
+  ]
+}
